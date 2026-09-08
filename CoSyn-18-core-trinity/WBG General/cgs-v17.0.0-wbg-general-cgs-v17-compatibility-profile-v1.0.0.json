@@ -1,0 +1,135 @@
+{
+  "wbg_artifact": {
+    "schema_version": "1.0.1",
+    "artifact_family_id": "wbg.compatibility.cgs-v17",
+    "artifact_id": "urn:cosyn:wbg:cgs-v17-compatibility-profile:1.0.0",
+    "artifact_name": "WBG CGS-v17 Compatibility Profile",
+    "artifact_version": "1.0.0",
+    "filename": "cgs-v17.0.0-wbg-general-cgs-v17-compatibility-profile-v1.0.0.json",
+    "artifact_class": "compatibility_profile",
+    "wbg_layer": "compatibility",
+    "status": "RATIFIED / ACTIVE",
+    "authority_ceiling": "urn:cosyn:wbg:wbg-root-authority:1.2.0",
+    "minimum_wbg_root": "1.2.0",
+    "required_parent_cgs": "17.0.0",
+    "capabilities_provided": [
+      "writing.compatibility.cgs-v17-legacy-parent-resolution"
+    ]
+  },
+  "compatibility_contract": {
+    "description": "Permit resolution of registered WBG source artifacts whose embedded legacy parent-governance metadata references CoSyn CGS v16.3.3 or v16.3.5, when all five required conditions pass. This resolution does not modify source artifact semantics except for interpretation of the registered legacy parent-governance reference.",
+    "activation_status": "RATIFIED / ACTIVE — ratified as part of CoSyn v17.0.0 repository operationalization",
+    "required_conditions": [
+      {
+        "id": "condition_1",
+        "description": "Active CGS is exactly 17.0.0"
+      },
+      {
+        "id": "condition_2",
+        "description": "Ratified active WBG Root is 1.2.0 or a valid explicit successor that preserves this compatibility contract"
+      },
+      {
+        "id": "condition_3",
+        "description": "Artifact identity matches a registered entry in this compatibility profile"
+      },
+      {
+        "id": "condition_4",
+        "description": "Artifact SHA-256 matches the registered entry hash — source bytes are byte-for-byte identical to the registered version"
+      },
+      {
+        "id": "condition_5",
+        "description": "The conflict is specifically and only a registered legacy parent-governance reference; no other authority, dependency, integrity, capability, or semantic conflict exists"
+      }
+    ],
+    "proposed_interpretation": {
+      "registered_legacy_parents": ["16.3.3", "16.3.5"],
+      "effective_parent_under_compatibility": "CoSyn CGS 17.0.0",
+      "scope": "Parent-governance reference resolution only. All other source artifact semantics, content, and provenance remain unchanged.",
+      "source_byte_preservation": "Compatibility succeeds only when source bytes match the registered SHA-256 exactly. No source content is modified."
+    },
+    "failure_mode": "WBG V17 COMPATIBILITY: FAIL_CLOSED",
+    "must_not": [
+      "perform generic version replacement outside registered entries",
+      "ignore arbitrary stale metadata not covered by registered entries",
+      "authorize unregistered artifacts",
+      "dynamically repair or rewrite source content",
+      "permit mixed CGS versions across the active governance stack",
+      "weaken subordinate governance constraints",
+      "reinterpret provenance records or external ratification evidence"
+    ]
+  },
+  "preserved_baseline_identity": {
+    "description": "Registered WBG v1.0.0 baseline identity used as compatibility anchor.",
+    "content_fingerprint_algorithm": "SHA-256(sorted filename:member_sha256 lines)",
+    "content_fingerprint_sha256": "37ff43471c8b21756319ff5d9c603654bc56780b87176817a031e6d7691c4b98",
+    "registered_member_count": 11,
+    "reference_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-base-v1.1.0/cgs-v17.0.0-wbg-general-v1.0.0-baseline-content-verification-v1.0.0.json",
+    "writing_bind_template_sha256": "1a5669a0c8855b9a96abeb9dd88521a2ce84d9f5cd9e10dcbd80eeb13a230cb3",
+    "writing_bind_template_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-base-v1.1.0/cgs-v17.0.0-wbg-general-writing-bind-template-v1.0.0.json"
+  },
+  "compatibility_entries": [
+    {
+      "entry_id": "compat-1",
+      "artifact_filename": "cgs-v17.0.0-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.2.md",
+      "artifact_id": "urn:cosyn:wbg:writing-diagnostic-and-evaluation-protocol:1.0.2",
+      "repository_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-active-overrides/cgs-v17.0.0-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.2.md",
+      "sha256": "19c60d7e880517eb4b05bbe54e3f1073da12f543e097abf51726a56ff7513eae",
+      "embedded_legacy_parent": "16.3.5",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-2",
+      "artifact_filename": "cgs-v17.0.0-wbg-general-writing-governance-and-authority-v1.0.2.md",
+      "artifact_id": "urn:cosyn:wbg:writing-governance-and-authority:1.0.2",
+      "repository_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-active-overrides/cgs-v17.0.0-wbg-general-writing-governance-and-authority-v1.0.2.md",
+      "sha256": "21445e254d92e0051992921b7ea42cb9d311ce506c7a27c736d9de0dae5e3bae",
+      "embedded_legacy_parent": "16.3.5",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-3",
+      "artifact_filename": "cgs-v17.0.0-wbg-general-writing-operation-state-and-revision-control-v1.0.2.md",
+      "artifact_id": "urn:cosyn:wbg:writing-operation-state-and-revision-control:1.0.2",
+      "repository_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-active-overrides/cgs-v17.0.0-wbg-general-writing-operation-state-and-revision-control-v1.0.2.md",
+      "sha256": "41c1eca2f0d4c3fe91650814e43448793f9228797760e3260e4530b9c2e8cf5d",
+      "embedded_legacy_parent": "16.3.5",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-4",
+      "artifact_filename": "cgs-v17.0.0-wbg-general-writing-team-personas-v2.4.0.md",
+      "artifact_id": "urn:cosyn:wbg:writing-team-personas:2.4.0",
+      "repository_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-active-overrides/cgs-v17.0.0-wbg-general-writing-team-personas-v2.4.0.md",
+      "sha256": "dbb0ad9c4909c3b1de3781dedff32072766f9c45b0b0bba67c1763af1b3d2154",
+      "embedded_legacy_parent": "16.3.3",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-5",
+      "artifact_filename": "cgs-v17.0.0-wbg-general-project-package-creation-workflow-v1.0.0.md",
+      "artifact_id": "urn:cosyn:wbg:project-package-creation-workflow:1.0.0",
+      "repository_path": "cgs-v17.0.0-tier3/cgs-v17.0.0-wbg-general/cgs-v17.0.0-wbg-general-update-v1.2.1/cgs-v17.0.0-wbg-general-project-package-creation-workflow-v1.0.0.md",
+      "sha256": "eaede1d7c3ec0412213d06ea536b8f31393075f7a5f6aa10b722dd23258f1fab",
+      "embedded_legacy_parent": "16.3.3",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-6",
+      "artifact_filename": "cgs-v17.0.0-wbg-personal-root-profile-v1.3.0.md",
+      "artifact_id": "urn:cosyn:wbg:wbg-personal-root-profile:1.3.0",
+      "repository_path": "cgs-v17.0.0-tier2/cgs-v17.0.0-tier2-personal/cgs-v17.0.0-wbg-personal/cgs-v17.0.0-wbg-personal-base-v1.3.1/cgs-v17.0.0-wbg-personal-root-profile-v1.3.0.md",
+      "sha256": "f51eecf1db00cd1f68234c76def1c830e6d81725c911e7044892ced77096df9e",
+      "embedded_legacy_parent": "16.3.3",
+      "proposed_effective_parent": "17.0.0"
+    },
+    {
+      "entry_id": "compat-7",
+      "artifact_filename": "cgs-v17.0.0-wbg-personal-project-package-creation-workflow-v1.0.0.md",
+      "artifact_id": "urn:cosyn:wbg:wbg-personal-project-package-creation-workflow:1.0.0",
+      "repository_path": "cgs-v17.0.0-tier2/cgs-v17.0.0-tier2-personal/cgs-v17.0.0-wbg-personal/cgs-v17.0.0-wbg-personal-base-v1.3.1/cgs-v17.0.0-wbg-personal-project-package-creation-workflow-v1.0.0.md",
+      "sha256": "0cb524dde2b3dd975b00f932809085e4326a14c572cb0e456fe2b80823e51078",
+      "embedded_legacy_parent": "16.3.3",
+      "proposed_effective_parent": "17.0.0"
+    }
+  ]
+}

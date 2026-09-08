@@ -1,0 +1,55 @@
+{
+  "wbg_artifact": {
+    "schema_version": "1.0.1",
+    "artifact_family_id": "wbg.bind.hierarchical-profile",
+    "artifact_id": "urn:cosyn:wbg:hierarchical-bind-profile:1.1.0",
+    "artifact_name": "WBG Hierarchical Bind Profile",
+    "artifact_version": "1.1.0",
+    "filename": "cgs-v17.0.0-wbg-general-hierarchical-bind-profile-v1.1.0.json",
+    "artifact_class": "package_control",
+    "wbg_layer": "root_support",
+    "status": "RATIFIED / ACTIVE",
+    "authority_ceiling": "urn:cosyn:wbg:wbg-root-authority:1.2.0",
+    "minimum_wbg_root": "1.2.0",
+    "required_parent_cgs": "17.0.0",
+    "capabilities_provided": [
+      "writing.binding.hierarchical-wbg-v1.2"
+    ],
+    "dependencies": [
+      "family:wbg.root.authority",
+      "family:wbg.sync.registration-contract",
+      "family:wbg.base-artifact-registry",
+      "family:wbg.compatibility.cgs-v17"
+    ],
+    "supersedes_artifact_id": "urn:cosyn:wbg:hierarchical-bind-profile:1.0.0",
+    "supersession_status": "RATIFIED — supersession is active and effective as of CoSyn v17.0.0 repository operationalization"
+  },
+  "baseline_binding": {
+    "owner": "urn:cosyn:wbg:writing-bind-template:1.0.0",
+    "role": "Validate/bind the exact registered WBG v1.0.0 base and its CoSyn v17.0.0 prerequisite.",
+    "do_not_modify_legacy_template": true,
+    "preserved_registered_baseline_note": "The existing writing-bind-template-v1.0.0.json is treated as preserved registered baseline material under this ratified successor profile. Its source bytes are unchanged. This interpretation is active as of the CoSyn v17.0.0 repository operationalization."
+  },
+  "hierarchical_sequence": [
+    "Validate CoSyn CGS v17.0.0 as the required active governance parent.",
+    "Validate the registered WBG v1.0.0 11-member content fingerprint (SHA-256: 37ff43471c8b21756319ff5d9c603654bc56780b87176817a031e6d7691c4b98).",
+    "Treat externally ratified baseline status as effective under the Root's grandfathering exception.",
+    "Load proposed WBG Root Authority v1.2.0.",
+    "Load proposed WBG CGS-v17 Compatibility Profile v1.0.0 and perform compatibility validation for all registered entries.",
+    "Load WBG Artifact Registration and Sync Contract v1.0.1.",
+    "Load Base Artifact Registry v1.0.1.",
+    "Discover available WBG extensions from the Extension Index and/or directly supplied conforming artifacts.",
+    "Validate each extension's versioned URN, family ID, integrity, dependencies, conflicts, status, and activation.",
+    "Register eligible RATIFIED extensions as ACTIVE or DORMANT.",
+    "Preserve project-specific governance beneath WBG.",
+    "If this is initial WBG setup and Project Governance Q&A is not already complete, preserve the baseline requirement that the next turn begins Project Governance Q&A."
+  ],
+  "failure_behavior": {
+    "mode": "FAIL_CLOSED_FOR_AFFECTED_WBG_CAPABILITY",
+    "compatibility_failure_mode": "WBG V17 COMPATIBILITY: FAIL_CLOSED",
+    "do_not_claim_full_wbg_v1_2_bind_if_root_or_baseline_validation_fails": true,
+    "extension_failure_does_not_corrupt_unrelated_valid_extensions": true,
+    "duplicate_capability_owner": "FAIL_CLOSED_FOR_CONFLICTING_CAPABILITY"
+  },
+  "runtime_boundary": "This profile cannot load unavailable files by itself. Source availability remains a host/context function."
+}

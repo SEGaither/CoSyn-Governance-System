@@ -1,0 +1,141 @@
+{
+  "package": "WBG v1.1.0",
+  "status": "RATIFIED / CANONICAL",
+  "manifest_version": "1.0.0",
+  "hash_algorithm": "SHA-256",
+  "self_hash_excluded": true,
+  "ratified_at": "2026-08-17T17:11:00-05:00",
+  "baseline_content_fingerprint_sha256": "37ff43471c8b21756319ff5d9c603654bc56780b87176817a031e6d7691c4b98",
+  "files": [
+    {
+      "filename": "cgs-v17.0.0-wbg-general-readme-wbg-v1.0.0.md",
+      "bytes": 4832,
+      "sha256": "644f7c0ddfcddcce40a2a4ba418c97051d91c0d9ba8e08cda0b3be1678375c7f"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-readme-wbg-v1.1.0.md",
+      "bytes": 2285,
+      "sha256": "23ebc94f0c0a0c38714681e52f8d36f1093e79cd04ce5b08f4aac9967cc34b74"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-ai-use-disclosure-creator-v1.0.2.md",
+      "bytes": 22990,
+      "sha256": "0c70e6b69a1e641e7b91ed29f69f941a1f10c3712922e3533dc30c116b6ea3b3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-anti-plagiarism-check-v1.0.3.md",
+      "bytes": 22345,
+      "sha256": "b05f2cf6200f3947a946c637c0df562ff20a6d4f5781d7cc1a135ffbee3bf2ae"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-anti-plagiarism-gate-v1.0.3.md",
+      "bytes": 16612,
+      "sha256": "8d2c01709f606e7dcab943d81e8830bfa442d4fbe03aa9442ad999802e67d270"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-artifact-registration-and-sync-contract-v1.0.1.md",
+      "bytes": 6601,
+      "sha256": "2d01e2b7f4e9505a65767ebdd339f90be8da4b73db1b1c77bf5db80cad160396"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-base-artifact-registry-v1.0.1.json",
+      "bytes": 6683,
+      "sha256": "cdcd1b83ac0d38792684568bbf6ef375a8beef743a87fcd52c3987813d7b801b"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-copyright-page-creator-v1.0.2.md",
+      "bytes": 14353,
+      "sha256": "f60797807cf452336c82d27d3394b0463f876852e491b72d2d9fef7a9e7545f3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-extension-index-v1.0.1.json",
+      "bytes": 3263,
+      "sha256": "fd3fbf68c8cf8706b31366510f5e1e16491d567086f14c6f48f363e0b3d80893"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-hierarchical-bind-profile-v1.0.0.json",
+      "bytes": 2498,
+      "sha256": "1f7e902ca3719f37f7620410985d80b6497fb68d5219e0d115d327ed49ed8e7b"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-root-authority-v1.1.0.md",
+      "bytes": 5739,
+      "sha256": "75c4dda910689a9865e940d5e13dbbbadc45dd7b934385afeae545daadc613b3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-v1.0.0-baseline-content-verification-v1.0.0.json",
+      "bytes": 3690,
+      "sha256": "4de6a0ff7cbe90bb7b95205319c50550f649048044126ccf722f8fe38ea04116"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-v1.1.0-canonical-package-manifest-v1.0.0.json",
+      "bytes": 4722,
+      "sha256": "e1e7bbcc0a8e50843806a7d38bf689649627674e33101f321446927500668813"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-v1.1.0-hierarchy-and-collision-validation-v1.0.1.json",
+      "bytes": 4172,
+      "sha256": "1649c2094d910c1c83564ce6115359cc6fa621958c12d08a7b09836a0b72077f"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-v1.1.0-hierarchy-and-collision-validation-v1.0.1.md",
+      "bytes": 4331,
+      "sha256": "daae59ce269c1b1b204c0b707835a9fbb072c53e504d68c13051075a968d37d3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-v1.1.0-ratification-and-provenance-record-v1.0.0.md",
+      "bytes": 3564,
+      "sha256": "3e1f7b897a5f5808ec343898627692b2ea7c95e7614187976cac603354e0a0c1"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-bind-template-v1.0.0.json",
+      "bytes": 3753,
+      "sha256": "1a5669a0c8855b9a96abeb9dd88521a2ce84d9f5cd9e10dcbd80eeb13a230cb3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.0.md",
+      "bytes": 3860,
+      "sha256": "04c86e67239eb6d1cfc48a2559667e9c26e37840248e1752395f601e991e3681"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-governance-and-authority-v1.0.0.md",
+      "bytes": 6663,
+      "sha256": "daefe7a83579f1bd7cd6930c4cb547b710bf7ac0ed5cc043589b73c24973765c"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-integrity-manifest-v1.0.0.json",
+      "bytes": 2020,
+      "sha256": "2a68797b7107cfcb4b809b6f247d6825f9e2d3ab89c58d41afdaa69efe0dd480"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-operation-state-and-revision-control-v1.0.0.md",
+      "bytes": 6905,
+      "sha256": "06fd5f01578c0b01a6a57d89007f99a3526b905568e27f668554342e3549440e"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-package-manifest-v1.0.0.json",
+      "bytes": 5047,
+      "sha256": "750a0ec5fa90ae1ceaff006a1537de156dec24336621ff2da7d66629952fde46"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-project-workbook-template-v1.0.0.md",
+      "bytes": 5031,
+      "sha256": "467a234bace997ae8821cde8d103a14187ef4e0a33392be9b059d803c43c4c7a"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-team-personas-v2.3.1-canonical.md",
+      "bytes": 72481,
+      "sha256": "faad29a2976ce1b3eeac2f8460ed81fc36a78b7b49344fa9743d2dd0cec530f3"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-user-artistic-authority-v1.0.0.md",
+      "bytes": 3794,
+      "sha256": "132e2e1dd151f4b0fe08fac9bb523322451a87e6ee59e6c995857719c4ef46a9"
+    },
+    {
+      "filename": "cgs-v17.0.0-wbg-general-writing-voice-style-and-naturalness-v1.0.0.md",
+      "bytes": 3453,
+      "sha256": "25f477e0ce23fc4acf2e2ada7e992cb6d7035089dcd9556e25f54e49966cd2e6"
+    }
+  ]
+}

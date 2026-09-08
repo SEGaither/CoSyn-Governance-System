@@ -1,0 +1,35 @@
+{
+  "artifact": "WBG v1.2.1 Canonical Dependency Lock",
+  "version": "1.0.0",
+  "status": "RATIFIED / CANONICAL PACKAGE CONTROL",
+  "effective_wbg_version": "1.2.1",
+  "required_parent_cgs": "17.0.0",
+  "base_dependency": {
+    "package": "WBG-v1.1.0-ratified.zip",
+    "version": "1.1.0",
+    "sha256": "ae33253dbbb6d2942715c389687466446c681775a7e47efd6af1b27e56342de6",
+    "embedded_in_this_update_zip": false,
+    "required_for_effective_full_bind": true
+  },
+  "update_layer_supersedes": [
+    {
+      "prior": "README-WBG-v1.1.0.md",
+      "new": "README-WBG-v1.2.1.md"
+    },
+    {
+      "prior": "WBG-Extension-Index-v1.0.1.json",
+      "new": "WBG-Extension-Index-v1.1.0.json"
+    }
+  ],
+  "update_layer_adds": [
+    "WBG-Project-Package-Creation-Workflow-v1.0.0.md"
+  ],
+  "assembly_order": [
+    "Validate exact WBG v1.1.0 dependency SHA-256.",
+    "Bind WBG v1.1.0 according to its canonical hierarchy.",
+    "Apply README-WBG-v1.2.1.md as current release guide.",
+    "Apply WBG-Extension-Index-v1.1.0.json as current extension discovery metadata.",
+    "Register and activate WBG-Project-Package-Creation-Workflow-v1.0.0.md when its trigger applies."
+  ],
+  "standalone_claim": false
+}

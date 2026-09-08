@@ -1,0 +1,8 @@
+5812ab78cf4c5b0bf7d5f5332c1d071ded27c9f823b04f16f02a176269e110c0  cgs-v17.0.0-wbg-general-extension-index-v1.1.0.json
+eaede1d7c3ec0412213d06ea536b8f31393075f7a5f6aa10b722dd23258f1fab  cgs-v17.0.0-wbg-general-project-package-creation-workflow-v1.0.0.md
+5b979742cd18525cb700d71ae741ead19f008cd03000920d13a7358cd42a521f  cgs-v17.0.0-wbg-general-readme-wbg-v1.2.1.md
+b885e527a3f330241bcb6af0c3a571097d2f041f9d2b704e4fcba7f9b14ae546  cgs-v17.0.0-wbg-general-v1.2.1-canonical-dependency-lock-v1.0.0.json
+bfcb2d04735cdb3eba56d3b0609c13a5c83fb605486f7f471fe66a476b874ff5  cgs-v17.0.0-wbg-general-v1.2.1-canonical-integrity-manifest-v1.0.0.json
+a168ea9a2bc0be394a8c6f02a08d4f7c85096d2b273d2025b26dfd0889887b7f  cgs-v17.0.0-wbg-general-v1.2.1-canonical-package-manifest-v1.0.0.json
+3fd8c35d2c0a87b1d009c1d85ac3dd9e2481fedc073b0b5ce68280b821c7ba66  cgs-v17.0.0-wbg-general-v1.2.1-hierarchy-and-collision-validation-v1.0.0.json
+7ff7e5c2e6167f45e012cbed73caee0e92fa0bdbc42d4bd97f4ea8d68c872f55  cgs-v17.0.0-wbg-general-v1.2.1-ratification-and-provenance-record-v1.0.0.md
