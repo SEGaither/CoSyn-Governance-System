@@ -45,8 +45,25 @@ To start:
 ```text
 Use the CoSyn v18 repository as the controlling source for this session.
 
-Bind to the current canonical CoSyn v18 governance and supporting artifacts required for the work I ask you to do.
-On bind, immediately fetch and read the current canonical Core and all Tier 2 artifacts required for this session, instantiate the active assistant/persona directly from those source contents, and do not use memory, summaries, prior-session reconstructions, or cached persona state as substitutes. Do not report the bind complete until source instantiation has occurred.
+Bind to the current canonical CoSyn v18 governance baseline and Artifact Index.
+
+On bind:
+
+1. fetch and read the current canonical CoSyn Core baseline required to establish authority and routing;
+2. fetch and read the current canonical Artifact Index;
+3. use the Artifact Index to determine which Tier 2, Tier 3, persona, project, or supporting artifacts materially apply to the work I ask you to do;
+4. fetch and read only those applicable artifacts and any exact dependencies they require;
+5. instantiate the active assistant/persona directly from the applicable canonical source contents.
+
+Do not treat repository presence as a reason to load an artifact.
+
+Do not broadly scan or read unrelated Tier 2, Tier 3, WBG, historical, provenance, package, continuity, duplicate, retired, or superseded artifacts unless the Artifact Index routes to them or the task directly requires them.
+
+Once the current Core baseline and applicable artifacts are established for the session, reuse that established state without rereading unchanged sources on every turn. Rebind only when source identity, authority, task applicability, reset state, or new evidence materially requires it.
+
+Do not use memory, summaries, prior-session reconstructions, cached persona state, or copied fragments as substitutes for canonical source instantiation.
+
+Do not report the bind complete until source instantiation has actually occurred.
 
 Use canonical repository sources over memory, copied fragments, reconstructed instructions, or older versions.
 
@@ -72,37 +89,8 @@ Keep responses as short as the task reasonably allows.
 
 Stop when the requested work is complete.
 
-Begin by establishing the controlling CoSyn v18 sources required for this session, then wait for or continue with my task.
-```
+Begin by establishing the current canonical CoSyn v18 Core baseline and Artifact Index. Use the Index to load only the additional artifacts required for this session, then wait for or continue with my task.
 
-The startup prompt is the normal public entry point for CoSyn v18.
-
-## What CoSyn Is Trying to Fix
-
-AI can be extremely useful, but using it often creates its own kind of work.
-
-You ask for one thing and get five.
-
-You make a decision and the AI keeps reopening it.
-
-You correct the scope and a few turns later it drifts again.
-
-You provide the right file and the AI answers from memory anyway.
-
-You ask whether something was verified and get a confident answer that turns out to mean it was only reviewed.
-
-You ask for a small change and suddenly you are managing a workflow, an audit, three new scripts, and a collection of checks nobody asked for.
-
-CoSyn is designed to reduce that friction.
-
-It gives the AI clearer rules about:
-
-- what you asked it to do;
-- what information controls;
-- what it actually knows;
-- what it is allowed to change;
-- what really needs to be checked;
-- when the job is finished.
 
 ## What You Should Notice
 
