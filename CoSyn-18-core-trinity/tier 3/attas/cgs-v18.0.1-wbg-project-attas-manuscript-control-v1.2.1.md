@@ -28,6 +28,20 @@ For every authorized manuscript revision:
 5. treat any outside-scope change as failure;
 6. discard contaminated output rather than patching it forward.
 
+### Manuscript Provenance Appendix
+
+The active ATTAS working manuscript will contain a provenance appendix at the end of the same manuscript file.
+
+Each substantive revision will add a new appendix entry identifying:
+- the manuscript version in which the revision entered;
+- the affected chapter or section;
+- the nature and purpose of the revision; and
+- the authorship or origin of the change where relevant.
+
+Provenance entries are cumulative and remain with the manuscript as its revision history. Mechanical corrections may be summarized by pass rather than logged individually.
+
+The provenance appendix documents manuscript revision history only. It does not establish, modify, or override story canon.
+
 ### Protected Existing Decisions
 
 - Charlie's gender remains intentionally ambiguous during the protected early-manuscript interval; do not introduce premature gender cues.
