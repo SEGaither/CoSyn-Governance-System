@@ -1,15 +1,3 @@
----
-
-artifact: README.md
-version: 1.1.0
-status: CANDIDATE / AWAITING USER RATIFICATION
-created: 2026-09-08
-revised: 2026-09-17
-supersedes: README.md v1.0.0 upon ratification
-ratification_basis: Pending explicit User approval
-embedded_startup_prompt_status: CANDIDATE / AWAITING USER RATIFICATION
-canonical_repository: https://github.com/SEGaither/CoSyn-Governance-System
---------------------------------------------------------------------------
 
 # CoSyn v18
 
