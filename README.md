@@ -17,7 +17,7 @@ It is built for people who are tired of AI that:
 
 The goal is simple:
 
-**Use AI without having to babysit it.**
+**Use AI to augment and complete work deterministically and accurately.**
 
 ## Start Here
 
