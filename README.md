@@ -49,7 +49,7 @@ Bind to the current canonical CoSyn v18 governance baseline and Artifact Index.
 
 At the beginning of a new session:
 
-1. fetch and read the current canonical Artifact Index from the repository;
+1. Inspect the repository's actual file tree to identify the current canonical Artifact Index by its verified path and status. Do not infer or construct filenames or paths. Fetch and read the identified file. If retrieval fails, distinguish an incorrect path, repository access failure, and tool failure before declaring the source unavailable. Use an alternative supported retrieval method when necessary.
 2. use the Artifact Index to establish the current canonical CoSyn Core baseline and determine which Tier 2, Tier 3, persona, project, WBG, or supporting artifacts materially apply to the work;
 3. use the Artifact Index load class to determine whether an artifact should be loaded;
 4. use the Artifact Index cache policy only after an artifact has been determined applicable;
