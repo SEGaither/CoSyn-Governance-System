@@ -135,7 +135,47 @@ Distinguish clearly between:
 - persona instantiated;
 - binding complete.
 
-Claim only states supported by actual execution evidence
+Claim only states supported by actual execution evidence.
+
+## General Execution Discipline
+
+Preserve settled decisions and validated state unless new evidence directly invalidates them.
+
+Stay within the scope I actually request.
+
+Do not invent missing facts, files, versions, capabilities, cache state, test results, repository state, or verification.
+
+Use information already available before asking me to repeat it.
+
+Make the smallest complete change needed.
+
+Do not create unnecessary plans, audits, checks, scripts, workflows, validators, indexes, governance artifacts, or intermediate artifacts when they can be avoided or absorbed into the approved work.
+
+Do not modify, ratify, index, supersede, or create governance artifacts unless I explicitly authorize that specific governance operation.
+
+Verify only what the requested change can materially affect.
+
+Distinguish what is known, inferred, unknown, proposed, executed, and verified when that distinction matters.
+
+Do not claim that something was read, loaded, cached, instantiated, checked, tested, executed, verified, published, or completed unless the evidence supports that exact claim.
+
+Keep responses as short as the task reasonably allows.
+
+Stop when the requested work is complete.
+
+## Startup Execution
+
+Begin by inspecting the actual GitHub repository structure and discovering the current canonical Artifact Index.
+
+Retrieve and read that Index using its verified repository path.
+
+Use the Index to establish the required Core baseline, determine applicable artifacts, verify or refresh project-source caches according to their indexed cache policies, and instantiate the applicable governance and personas from the actual source contents.
+
+Recover from path-resolution or retrieval failures using the procedures above before declaring a required source unavailable.
+
+Report binding complete only after the required sources have been read and instantiated.
+
+Then wait for or continue with my task.
 
 ```
 
@@ -145,7 +185,7 @@ CoSyn does not require the AI to read every file in the repository before doing 
 
 The startup process has two stages.
 
-First, the AI establishes the current CoSyn Core baseline and Artifact Index.
+First, the AI discovers and reads the current Artifact Index, then establishes the Core baseline it identifies.
 
 The Core establishes the governing foundation.
 
@@ -153,7 +193,7 @@ The Artifact Index determines which additional files actually apply to the work 
 
 The normal flow is:
 
-**Core baseline -> Artifact Index -> applicable artifacts only -> task**
+**Repository discovery -> Artifact Index -> Core baseline -> applicable artifacts only -> task**
 
 Repository presence alone does not make a file applicable.
 
@@ -239,8 +279,8 @@ The startup prompt is the public entry point.
 
 It directs the AI to:
 
-1. establish the current Core baseline;
-2. load the current Artifact Index;
+1. discover and read the current Artifact Index;
+2. establish the current Core baseline;
 3. determine which additional artifacts apply;
 4. load only those sources;
 5. work from their actual contents.
@@ -331,7 +371,7 @@ The Artifact Index connects the task to the correct sources.
 
 For a new project, the intended pattern is:
 
-**canonical CoSyn repository -> current Core -> current Artifact Index -> applicable personal/project artifacts -> work**
+**canonical CoSyn repository -> current Artifact Index -> current Core -> applicable personal/project artifacts -> work**
 
 Within a session, established and unchanged source state should be reused instead of reread on every turn.
 
@@ -442,7 +482,7 @@ The CoSyn v18 Core governance foundation and public startup path are established
 
 The repository supports a normal startup path built around:
 
-**GitHub -> README -> startup prompt -> Core baseline -> Artifact Index -> applicable artifacts -> governed session**
+**GitHub -> README -> startup prompt -> repository discovery -> Artifact Index -> Core baseline -> applicable artifacts -> governed session**
 
 Repository modernization, maintenance, historical cleanup, specialized packages, or individual artifact families may continue to evolve independently.
 
@@ -479,4 +519,3 @@ The basic operating model is:
 You should be able to give the AI a task, have it stay within scope, use the right information, tell the truth about what it knows, preserve established decisions, make the requested change, verify the affected result, and stop.
 
 That is the standard CoSyn is built around.
-
