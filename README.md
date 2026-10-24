@@ -38,7 +38,7 @@ To start:
 3. Let the AI establish the current CoSyn baseline from the canonical repository.
 4. Continue working normally.
 
-## CoSyn v18 Startup Prompt
+## CoSyn v18 Startup Prompt                                                                           **click the copy button here**
 
 ```text
 Use the following repository as the controlling CoSyn v18 authority for this project and session:
