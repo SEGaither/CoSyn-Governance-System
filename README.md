@@ -175,7 +175,7 @@ Recover from path-resolution or retrieval failures using the procedures above be
 
 Report binding complete only after the required sources have been read and instantiated.
 
-If and only if binding completes successfully, retrieve and read `CoSyn-18-core-trinity/knowledge-base/Guppi-CoSyn-Intro-v1.0.1.md` from the canonical repository and return that introduction as the startup response.
+If and only if binding completes successfully, retrieve and read `CoSyn-18-core-trinity/knowledge-base/Guppi-CoSyn-Intro-v1.1.0.md` from the canonical repository and return that introduction as the startup response.
 
 Do not return the introduction if binding is incomplete or unresolved.
 
