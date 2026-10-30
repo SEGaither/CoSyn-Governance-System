@@ -1,10 +1,10 @@
 # CoSyn Artifact Index
 
-**Artifact:** `artifact-index-v1.1.24.md`  
-**Version:** 1.1.24  
+**Artifact:** `artifact-index-v1.1.25.md`  
+**Version:** 1.1.25  
 **Status:** RATIFIED / ACTIVE / CURRENT — installed in canonical GitHub repository  
 **Date:** 2026-10-24  
-**Supersedes:** `artifact-index-v1.1.23.md`  
+**Supersedes:** `artifact-index-v1.1.24.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
 **Repository observation:** `main` recursive Git tree `13a5665f9a9af715fc1a503577cff935d84c77cc`; tree not truncated. This is a point-in-time observation, not a continuing guarantee.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
