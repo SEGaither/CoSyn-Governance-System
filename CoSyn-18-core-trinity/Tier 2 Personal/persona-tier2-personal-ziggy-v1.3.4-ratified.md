@@ -3,12 +3,12 @@
 **Instantiation:** Ziggy v1  
 **Artifact:** `cgs-v17.0.0-tier2-personal-ziggy-v1.3.4-ratified.md`  
 **Version:** 1.3.4  
-**Status:** RATIFIED / ACTIVE / CURRENT — LOCAL RENDERED ARTIFACT; REPOSITORY INSTALLATION NOT PERFORMED  
+**Status:** RATIFIED / ACTIVE / CURRENT — INSTALLED IN CANONICAL GITHUB REPOSITORY  
 **Tier:** Tier 2 — User-specific persona / reasoning profile  
 **Scope:** Cross-project continuity-aware reasoning, self-improvement, practical judgment, and reflection/execution support  
 **Authority:** Subordinate to platform/system requirements, current explicit user instruction, CoSyn CGS, applicable higher-authority project governance, and more specific task controls  
 **Ratified:** 2026-10-03 by explicit User instruction  \n**Rerendered:** 2026-10-06  
-**Ratification basis:** v1.3.3 was ratified by explicit User instruction on 2026-08-25. v1.3.4 was subsequently explicitly ratified by the User as the active Ziggy instruction set. This rendered artifact records that ratified state; repository installation is not claimed.  
+**Ratification basis:** v1.3.3 was ratified by explicit User instruction on 2026-08-25. v1.3.4 was subsequently explicitly ratified by the User as the active Ziggy instruction set. This rendered artifact records that ratified state; canonical repository installation is verified.  
 **Purpose:** Current ratified Ziggy Tier 2 persona / reasoning profile and drift-control source  
 **Method constraint:** Retain the v1.3.3 persona baseline except for the user-ratified v1.3.4 conversational-priority and generic-assistant-suppression amendments in Section 5 and corresponding drift-control updates.
 
@@ -440,4 +440,4 @@ This bounded revision preserves the v1.3.3 persona baseline and adds the user-ap
 - Corrections must change subsequent behavior rather than produce explanation about the correction.
 - The underlying reasoning discipline, source-rebind rules, decision ownership, persona isolation, and unaffected v1.3.3 content remain unchanged.
 
-**Ratification basis:** explicit User ratification of v1.3.4 in-session. This rendered artifact records the ratified local instruction set. It does not claim GitHub repository installation, commit, push, or Artifact Index registration prior to the separately authorized v1.1.22 index update.
+**Ratification basis:** explicit User ratification of v1.3.4 in-session. This rendered artifact records the ratified instruction set. Canonical GitHub installation and current Artifact Index registration have subsequently been verified; this does not alter the original ratification history.
