@@ -1,10 +1,10 @@
 ---
 wbg_personal_artifact:
   schema_version: "1.3.0"
-  artifact_id: "urn:cosyn:wbg-personal:root-profile:1.3.0"
+  artifact_id: "urn:cosyn:wbg-personal:root-profile:1.3.1"
   artifact_name: "WBG Personal Root Profile"
-  artifact_version: "1.3.0"
-  filename: "WBG-Personal-Root-Profile-v1.3.0.md"
+  artifact_version: "1.3.1"
+  filename: "cgs-v18.0.1-wbg-personal-root-profile-v1.3.1.md"
   artifact_class: "personal_specialization_root"
   status: "RATIFIED"
   authority_ceiling: "WBG v1.2.1"
@@ -13,7 +13,7 @@ wbg_personal_artifact:
   required_parent_cgs: "18.0.1"
 ---
 
-# WBG Personal Root Profile — v1.3.0
+# WBG Personal Root Profile — v1.3.1
 
 ## 1. Purpose
 
