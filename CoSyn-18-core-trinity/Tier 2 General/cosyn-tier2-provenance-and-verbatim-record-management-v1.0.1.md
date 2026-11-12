@@ -1,7 +1,7 @@
 # CoSyn Provenance and Verbatim Record Management
 
-**Artifact:** `cosyn-tier2-provenance-and-verbatim-record-management-v1.0.0.md`  
-**Version:** 1.0.0  
+**Artifact:** `cosyn-tier2-provenance-and-verbatim-record-management-v1.0.1.md`  
+**Version:** 1.0.1  
 **Tier:** 2 — Reusable behavioral instructions  
 **Scope:** Same-session context hygiene, provenance checkpoints, and faithful conversation records across CoSyn-governed sessions  
 **Authority:** Subordinate to applicable platform requirements, canonical CoSyn governance, and the user's current authorized direction
@@ -55,6 +55,12 @@ Preserve original conversation text as faithfully as the host makes it available
 The verbatim record documents **what was said**. The checkpoint documents **what currently stands**. Neither replaces canonical repository sources. Do not reload the complete verbatim record by default: retrieve only the passages needed for the present task, because full-history retrieval can itself consume working context.
 
 ## 4. Creation, correction, and version identity
+
+### Session name prerequisite
+
+Before beginning record creation, obtain the **user-specified session name** to be embedded in both output filenames. Ask the user to name the session if they have not already expressly provided the name for this operation; do not infer it from the chat title, project, assistant persona, or subject matter. Wait for that input before generating either record. When the user has already specified the name explicitly, use it without a redundant question.
+
+Use a consistent, filename-safe representation of that session name in both records while retaining the established checkpoint `1.x.y` and verbatim stardate version conventions. For example, a user-named **TBA Worklog** session yields `tba-worklog-provenance-v1.0.0.md` and `tba-worklog-verbatim-v1112.6.md`. Preserve that session identifier in corrected and subsequent versions unless the user changes it. Do not introduce unrelated filename changes or alter an explicitly requested extension.
 
 Create or update these records **when the user requests or authorizes the operation**, not automatically at every turn or session boundary. Use the filenames and versioning convention established for that session; do not impose a fixed project name, persona name, or storage destination.
 
