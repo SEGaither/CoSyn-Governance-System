@@ -1,12 +1,12 @@
 # CoSyn Artifact Index
 
-**Artifact:** `artifact-index-v1.1.26.md`  
-**Version:** 1.1.26  
+**Artifact:** `artifact-index-v1.1.27.md`  
+**Version:** 1.1.27  
 **Status:** RATIFIED / ACTIVE / CURRENT — installed in canonical GitHub repository  
-**Date:** 2026-11-01  
-**Supersedes:** `artifact-index-v1.1.25.md`  
+**Date:** 2026-11-12  
+**Supersedes:** `artifact-index-v1.1.26.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
-**Repository observation:** EOS successor routing checked against the canonical repository during this revision; repository contents may change thereafter.  
+**Repository observation:** Provenance and verbatim record management Tier 2 General routing added against the canonical repository during this revision; repository contents may change thereafter.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
 
 ## 1. Binding and tolerant routing rules
@@ -32,6 +32,7 @@ All paths are relative to the repository root. An exact path is a retrieval loca
 | `CoSyn-18-core-trinity/Tier 2 Personal/cgs-v18.0.1-tier2-personal-response-instructions-v1.3.md` | BOUND-BASELINE | PROJECT-CACHE | Cross-project response rules | — |
 | `CoSyn-18-core-trinity/Tier 2 Personal/Zero-v3.0.1-091726-ratified.md` | CONDITIONAL | PROJECT-CACHE | Zero requested; software, LLM/API/agents, code, debugging, repository engineering | — |
 | `CoSyn-18-core-trinity/Tier 2 Personal/persona-tier2-personal-ziggy-v1.3.4-ratified.md` | CONDITIONAL | PROJECT-CACHE | Ziggy requested; reflective reasoning, personal judgment, continuity-aware self-improvement | — |
+| `CoSyn-18-core-trinity/Tier 2 General/cosyn-tier2-provenance-and-verbatim-record-management-v1.0.0.md` | CONDITIONAL | PROJECT-CACHE | User-authorized provenance checkpoints, verbatim conversation records, and active-context hygiene for continuing an existing session | Constitution v18.0.1 |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v18.0.1-tier2-general-work-session-management-team-persona-v1.1.1-091726.md` | CONDITIONAL | PROJECT-CACHE | Consequential stateful/multistep work, team routing or continuity handoff | Guppi v1.3.17; Git safety protocol (source-declared; resolve if relevant) |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-git-repository-change-safety-protocol-v1.0.0-082126.md` | CONDITIONAL | SESSION-ONLY | Git inspection or mutation, commits, branches, history, reset/push | — |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-gpt-compute-conservation-v1.2.0-091726.md` | CONDITIONAL | PROJECT-CACHE | Execute an already approved/established plan in ChatGPT | — |
@@ -66,4 +67,4 @@ All paths are relative to the repository root. An exact path is a retrieval loca
 - If a required current route fails, correct its path/identity through focused discovery; continue unaffected routing. Full binding fails only when a genuinely required source cannot be established or a required authority conflict remains unresolved.
 - If a relevant file is missing from this directory, inspect the pertinent directory listing and at most the source candidates needed to resolve that task. Do not conduct routine repository-wide semantic scans.
 - On an authorized future index update, adjust only affected entries and any directly affected dependency/authority decisions; verify affected paths and stop. Retain history, cleanup, provenance, and revision evidence in their existing sources, not in the routine routing directory.
-- This revision records the User-authorized EOS v1.2.1 successor and supersedes Index v1.1.25. The superseded EOS and Index files were designated for removal. No other source artifact is ratified or promoted by this Index.
+- The prior v1.1.26 revision recorded the User-authorized EOS v1.2.1 successor and designated its superseded EOS and Index files for removal. This revision adds the User-authorized Tier 2 General provenance and verbatim record management v1.0.0 artifact and supersedes Index v1.1.26. No other source artifact is ratified or promoted by this Index.
