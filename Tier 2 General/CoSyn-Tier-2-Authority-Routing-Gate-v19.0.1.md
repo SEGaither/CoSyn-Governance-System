@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-Tier-2-Authority-Routing-Gate-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-tier-2-authority-routing-gate-v1.1.1-082226.md | Original source status and version preserved -->
 # Tier 2 Authority Routing Gate
 
-**Artifact:** `tier-2-authority-routing-gate-v1.1.1-082226.md`  
+**Artifact:** `CoSyn-Tier-2-Authority-Routing-Gate-v19.0.1.md`  
+**Original source artifact:** `tier-2-authority-routing-gate-v1.1.1-082226.md`  
 **Version:** 1.1.1  
 **Tier:** Tier 2 — User-specific pre-reasoning authority-routing control  
 **Status:** RATIFIED / ACTIVE  
