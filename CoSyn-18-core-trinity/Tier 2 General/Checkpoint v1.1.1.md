@@ -3,11 +3,11 @@
 **Artifact:** `Checkpoint v1.1.1.md`  
 **Version:** 1.1.1  
 **Tier:** 2 — Cross-project operational workflow instructions  
-**Status:** PROPOSED — user-authorized draft; not ratified or installed in the canonical repository  
+**Status:** RATIFIED / ACTIVE / CURRENT — user-authorized 2026-11-25; installed in canonical GitHub repository  
 **Date:** 2026-11-25  
 **Scope:** In-session provenance checkpoints, verbatim Markdown conversation records, and planned or forced session continuation  
 **Consolidation sources:** `cosyn-tier2-provenance-and-verbatim-record-management-v1.0.1.md`; `cgs-v17.0.0-tier2-general-end-session-package-prompt-v1.2.1-110126.md`  
-**Canonical routing authority:** CoSyn Artifact Index v1.1.29, until an authorized successor is installed  
+**Canonical routing authority:** CoSyn Artifact Index v1.1.30 (index routing update pending for ACTIVE status)  
 **Repository:** https://github.com/SEGaither/CoSyn-Governance-System
 
 ## 1. Purpose and authority
