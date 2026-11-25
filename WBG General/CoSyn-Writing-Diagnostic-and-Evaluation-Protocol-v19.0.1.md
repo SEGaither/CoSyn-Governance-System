@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Writing-Diagnostic-and-Evaluation-Protocol-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.3.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:wbg:writing-diagnostic-and-evaluation-protocol:1.0.3
 artifact_title: WBG Writing Diagnostic and Evaluation Protocol
@@ -10,6 +9,7 @@ status: CANDIDATE / READY FOR PACKAGE INTEGRATION
 supersedes: cgs-v17.0.0-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.2.md
 internet_dependency: required for source-validation and remote professional-reference retrieval
 ---
+<!-- CoSyn repository file: CoSyn-Writing-Diagnostic-and-Evaluation-Protocol-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-diagnostic-and-evaluation-protocol-v1.0.3.md | Original source status and version preserved -->
 
 # WBG Writing Diagnostic and Evaluation Protocol — v1.0.3
 
