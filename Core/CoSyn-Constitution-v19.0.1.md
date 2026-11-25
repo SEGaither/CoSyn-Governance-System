@@ -1,7 +1,9 @@
+<!-- New filename: CoSyn-Constitution-v19.0.1.md; source ratification v18.0.1 is preserved; this administrative rename does not ratify new substantive v19 governance. -->
 # CoSyn Core Constitution — v18.0.1
 
-**Artifact:** `cgs-core-v18.0.1-constitution.md`  
-**Constitution Version:** 18.0.1  
+**Artifact:** `CoSyn-Constitution-v19.0.1.md`  
+**Filename version:** 19.0.1  
+**Original ratified Constitution Version:** 18.0.1  
 **Status:** RATIFIED / ACTIVE  
 **Reconciliation Record:** amendment pass04 — triad identity and ratification reconciliation; no further material change  
 **Role:** Constitutional root of CoSyn Governance Stack (CGS) Core  

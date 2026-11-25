@@ -26,9 +26,9 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 
 | Artifact / exact repository path | Load | Cache | Task trigger | Direct known dependencies |
 |---|---|---|---|---|
-| `CoSyn-18-core-trinity/Core/cgs-core-v18.0.1-constitution.md` | BOUND-BASELINE | PROJECT-CACHE | CoSyn constitutional baseline | — |
-| `CoSyn-18-core-trinity/Core/cgs-core-v18.0.2-persona-governor.md` | BOUND-BASELINE | PROJECT-CACHE | Persona governance baseline | Constitution v18.0.1 |
-| `CoSyn-18-core-trinity/Core/cgs-core-v18.0.2-stack-architect.md` | BOUND-BASELINE | PROJECT-CACHE | Stack/authority and routing baseline | Constitution v18.0.1; Persona Governor v18.0.2 |
+| `Core/CoSyn-Constitution-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | CoSyn constitutional baseline | — |
+| `Core/CoSyn-Governor-v19.0.2.md` | BOUND-BASELINE | PROJECT-CACHE | Persona governance baseline | Constitution v18.0.1 |
+| `Core/CoSyn-Architect-v19.0.2.md` | BOUND-BASELINE | PROJECT-CACHE | Stack/authority and routing baseline | Constitution v18.0.1; Persona Governor v18.0.2 |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Guppi-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | Normal cross-project Guppi identity and response baseline; do not replace explicitly selected specialist identity | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Personal-Response-Instructions-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | Cross-project response rules | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Zero-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Zero requested; software, LLM/API/agents, code, debugging, repository engineering | — |

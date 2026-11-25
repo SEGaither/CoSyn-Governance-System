@@ -1,11 +1,13 @@
+<!-- New filename: CoSyn-Architect-v19.0.2.md; source ratification v18.0.2 is preserved; this administrative rename does not ratify new substantive v19 governance. -->
 # Stack Architect — v18.0.2
 
-**Artifact:** `cgs-core-v18.0.2-stack-architect.md`  
-**Version:** 18.0.2  
+**Artifact:** `CoSyn-Architect-v19.0.2.md`  
+**Filename version:** 19.0.2  
+**Original ratified source version:** 18.0.2  
 **Status:** RATIFIED / ACTIVE — NEXT-BIND CONTROLLING SUCCESSOR  
 **Update Record:** 2026-09-17 — approved per-turn selective-routing delta; no unrelated architectural change  
 **Role:** Authority, capability, composition, and routing profile for CGS Core  
-**Authority:** Subordinate to ratified `cgs-core-v18.0.1-constitution.md`; peer Core function with ratified `cgs-core-v18.0.1-persona-governor.md` under the Constitution  
+**Authority:** Subordinate to ratified `CoSyn-Constitution-v19.0.1.md`; peer Core function with ratified `cgs-core-v18.0.1-persona-governor.md` under the Constitution  
 **Core Triad Status:** v18.0.2 Architect and Governor successors ratified; Constitution remains v18.0.1
 **Repository / Release / Bind / Runtime Status:** Not established by this artifact  
 **Created:** 2026-09-02  
@@ -565,7 +567,7 @@ When multiple structurally valid routes can satisfy the same protection, the Arc
 
 This v18.0.1 Architect is part of the ratified three-file Core triad consisting of:
 
-- `cgs-core-v18.0.1-constitution.md`;
+- `CoSyn-Constitution-v19.0.1.md`;
 - `cgs-core-v18.0.1-persona-governor.md`;
 - `cgs-core-v18.0.1-stack-architect.md`.
 

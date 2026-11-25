@@ -1,11 +1,13 @@
+<!-- New filename: CoSyn-Governor-v19.0.2.md; source ratification v18.0.2 is preserved; this administrative rename does not ratify new substantive v19 governance. -->
 # Persona Governor — v18.0.2
 
-**Artifact:** `cgs-core-v18.0.2-persona-governor.md`  
-**Version:** 18.0.2  
+**Artifact:** `CoSyn-Governor-v19.0.2.md`  
+**Filename version:** 19.0.2  
+**Original ratified source version:** 18.0.2  
 **Status:** RATIFIED / ACTIVE — NEXT-BIND CONTROLLING SUCCESSOR  
 **Update Record:** 2026-09-17 — approved bounded per-turn enforcement delta; no unrelated governance change  
 **Role:** Constitutional protection and persona-enforcement profile for CGS Core  
-**Authority:** Subordinate to ratified `cgs-core-v18.0.1-constitution.md`, platform/system requirements, and current explicit User authority  
+**Authority:** Subordinate to ratified `CoSyn-Constitution-v19.0.1.md`, platform/system requirements, and current explicit User authority  
 **Core Triad Status:** v18.0.2 Governor and Architect successors ratified; Constitution remains v18.0.1
 **Repository / Release / Bind / Runtime Status:** Not established by this artifact  
 **Created:** 2026-09-02  
