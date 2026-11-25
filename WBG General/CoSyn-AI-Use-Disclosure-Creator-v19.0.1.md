@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-AI-Use-Disclosure-Creator-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-ai-use-disclosure-creator-v1.0.3.md | Original source status and version preserved -->
 ---
 wbg_artifact:
   schema_version: "1.0.1"
@@ -30,6 +29,7 @@ wbg_artifact:
   integrity:
     method: "external_registry_sha256"
 ---
+<!-- CoSyn repository file: CoSyn-AI-Use-Disclosure-Creator-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-ai-use-disclosure-creator-v1.0.3.md | Original source status and version preserved -->
 
 
 # WBG AI Use Disclosure Creator — v1.0.3
