@@ -1,12 +1,13 @@
 # CoSyn Artifact Index
 
-**Artifact:** `artifact-index-v1.1.31.md`  
-**Version:** 1.1.31  
-**Status:** RATIFIED / ACTIVE / CURRENT — user-authorized canonical routing update  
+**Artifact:** `CoSyn-Artifact-Index-v19.0.1.md`  
+**Filename version:** 19.0.1  
+**Previous index version:** 1.1.31  
+**Status:** ACTIVE ROUTING INDEX — user-authorized public/private repository reorganization; prior source ratification is retained by its original artifacts  
 **Date:** 2026-11-25  
-**Supersedes:** `artifact-index-v1.1.30.md`  
+**Supersedes:** `artifact-index-v1.1.31.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
-**Repository observation:** `Checkpoint v1.1.1.md` is RATIFIED / ACTIVE / CURRENT for consolidated continuity operations. The predecessor provenance/verbatim v1.0.1 remains in Tier 2 General as historical source; predecessor end-session package v1.2.1 remains unmodified in `Providence Archive/`.  
+**Repository observation:** `Checkpoint v1.1.1.md` is RATIFIED / ACTIVE / CURRENT for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
 
 ## 1. Binding and tolerant routing rules
@@ -21,41 +22,41 @@
 
 ## 2. Routing directory — verified active sources
 
-All paths are relative to the repository root. An exact path is a retrieval locator, not proof that a file has been read this session. `—` in dependencies means **none independently established in this Index**, not proof that the source declares none. Where this Index knows exact source-declared dependencies, they are specified.
+Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixed `SEGaither/CoSyn-Personal-Governance:` belongs to the private repository and requires authorized access. An exact path is a retrieval locator, not proof that a file has been read this session. `—` in dependencies means **none independently established in this Index**, not proof that the source declares none. Where this Index knows exact source-declared dependencies, they are specified.
 
 | Artifact / exact repository path | Load | Cache | Task trigger | Direct known dependencies |
 |---|---|---|---|---|
 | `CoSyn-18-core-trinity/Core/cgs-core-v18.0.1-constitution.md` | BOUND-BASELINE | PROJECT-CACHE | CoSyn constitutional baseline | — |
 | `CoSyn-18-core-trinity/Core/cgs-core-v18.0.2-persona-governor.md` | BOUND-BASELINE | PROJECT-CACHE | Persona governance baseline | Constitution v18.0.1 |
 | `CoSyn-18-core-trinity/Core/cgs-core-v18.0.2-stack-architect.md` | BOUND-BASELINE | PROJECT-CACHE | Stack/authority and routing baseline | Constitution v18.0.1; Persona Governor v18.0.2 |
-| `CoSyn-18-core-trinity/Tier 2 Personal/Guppi-v1.3.17-091726-ratified.md` | BOUND-BASELINE | PROJECT-CACHE | Normal cross-project Guppi identity and response baseline; do not replace explicitly selected specialist identity | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/cgs-v18.0.1-tier2-personal-response-instructions-v1.3.md` | BOUND-BASELINE | PROJECT-CACHE | Cross-project response rules | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/Zero-v3.0.1-091726-ratified.md` | CONDITIONAL | PROJECT-CACHE | Zero requested; software, LLM/API/agents, code, debugging, repository engineering | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/persona-tier2-personal-ziggy-v1.3.4-ratified.md` | CONDITIONAL | PROJECT-CACHE | Ziggy requested; reflective reasoning, personal judgment, continuity-aware self-improvement | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Guppi-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | Normal cross-project Guppi identity and response baseline; do not replace explicitly selected specialist identity | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Personal-Response-Instructions-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | Cross-project response rules | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Zero-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Zero requested; software, LLM/API/agents, code, debugging, repository engineering | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Ziggy-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Ziggy requested; reflective reasoning, personal judgment, continuity-aware self-improvement | — |
 | `CoSyn-18-core-trinity/Tier 2 General/Checkpoint v1.1.1.md` | CONDITIONAL | PROJECT-CACHE | `checkpoint` invocation; provenance checkpoints, living verbatim session records, end-session continuation packages, and related continuity management | Constitution v18.0.1 |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v18.0.1-tier2-general-work-session-management-team-persona-v1.1.1-091726.md` | CONDITIONAL | PROJECT-CACHE | Consequential stateful/multistep work, team routing or continuity handoff | Guppi v1.3.17; Git safety protocol (source-declared; resolve if relevant) |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-git-repository-change-safety-protocol-v1.0.0-082126.md` | CONDITIONAL | SESSION-ONLY | Git inspection or mutation, commits, branches, history, reset/push | — |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-gpt-compute-conservation-v1.2.0-091726.md` | CONDITIONAL | PROJECT-CACHE | Execute an already approved/established plan in ChatGPT | — |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-powershell-script-writing-instructions-v1.1.1-082626.md` | CONDITIONAL | SESSION-ONLY | Writing executable PowerShell scripts for user | — |
 | `CoSyn-18-core-trinity/Tier 2 General/cgs-v17.0.0-tier2-general-lock-v1.0.0.md` | ON-REQUEST | SESSION-ONLY | User invokes `Lock` | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/cgs-v17.0.0-tier2-personal-editing-preferences-v1.3.md` | CONDITIONAL | PROJECT-CACHE | Editing existing user artifacts with preservation/version instructions | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/cgs-v18.0.1-tier2-personal-user-voice-and-style-reference-v1.2.1-112026-ratified.md` | CONDITIONAL | PROJECT-CACHE | Draft/revise writing in user's voice | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Editing-Preferences-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Editing existing user artifacts with preservation/version instructions | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-User-Voice-and-Style-Reference-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Draft/revise writing in user's voice | — |
 | `CoSyn-18-core-trinity/WBG General/cgs-v18.0.1-wbg-general-anti-ai-prose-signature-gate-v1.1.0-092126-ratified.md` | CONDITIONAL | PROJECT-CACHE | Explicit synthetic-prose/Anti-AI audit or correction | — |
 | `CoSyn-18-core-trinity/WBG General/Writing-Team-Personas-v2.4.1-ratified.md` | CONDITIONAL | PROJECT-CACHE | Manuscript professional-team/persona and editing stages | — |
 | `CoSyn-18-core-trinity/WBG General/cgs-v18.0.1-wbg-general-fiction-drill-review-profile-v1.3.0-092526-ratified.md` | CONDITIONAL | PROJECT-CACHE | Explicit general-fiction Drill review | — |
-| `CoSyn-18-core-trinity/WBG Personal/cgs-v18.0.1-wbg-personal-project-package-creation-workflow-v1.0.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal project package | — |
-| `CoSyn-18-core-trinity/WBG Personal/cgs-v18.0.1-wbg-personal-root-profile-v1.3.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal writing workflow requiring root profile | — |
-| `CoSyn-18-core-trinity/WBG Personal/cgs-v18.0.1-wbg-personal-readme-wbg-personal-v1.3.2.md` | ON-REQUEST | NO-CACHE | WBG Personal package guidance/README | — |
-| `CoSyn-18-core-trinity/WBG Personal/cgs-v18.0.1-wbg-personal-validation-report-v1.3.2.md` | ON-REQUEST | NO-CACHE | WBG Personal validation evidence | — |
-| `CoSyn-18-core-trinity/WBG Personal/cgs-v18.0.1-wbg-personal-provenance-v1.3.2.md` | ON-REQUEST | NO-CACHE | WBG Personal provenance/history/audit | — |
+| `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Project-Package-Creation-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal project package | — |
+| `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Root-Profile-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal writing workflow requiring root profile | — |
+| `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Readme-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal package guidance/README | — |
+| `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Validation-Report-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal validation evidence | — |
+| `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Provenance-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal provenance/history/audit | — |
 | `CoSyn-18-core-trinity/tier 3/General WBG Project Templates/cgs-v18.0.1-wbg-general-writing-project-workbook-template-v1.0.1.md` | ON-REQUEST | SESSION-ONLY | Writing workbook template review/use; verify proposed status before treating as governing | — |
 | `CoSyn-18-core-trinity/tier 3/attas/cgs-v18.0.1-wbg-project-attas-drill-review-profile-v1.2.2-092526-ratified.md` | CONDITIONAL | PROJECT-CACHE | Explicit ATTAS Drill; Bookfox overlay only if explicitly requested | — |
-| `CoSyn-18-core-trinity/Tier 2 Personal/TVA-gmail-retrieval-prompt-v1.0.0.md` | ON-REQUEST | SESSION-ONLY | User requests this TVA email consolidation workflow | — |
+| `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-TVA-Gmail-Retrieval-Prompt-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | User requests this TVA email consolidation workflow | — |
 
 ## 3. Available but not automatically authoritative
 
-- **Superseded provenance/verbatim source:** `CoSyn-18-core-trinity/Tier 2 General/cosyn-tier2-provenance-and-verbatim-record-management-v1.0.1.md` remains preserved with its historical status; **NEVER-NORMAL** as an active load route. `Checkpoint v1.1.1.md` now governs the consolidated functions.
-- **Superseded archived end-session source:** `Providence Archive/cgs-v17.0.0-tier2-general-end-session-package-prompt-v1.2.1-110126.md` retains its original file contents and historical status, including its former RATIFIED / ACTIVE / CURRENT header; **NEVER-NORMAL** as active governance. `Checkpoint v1.1.1.md` supersedes its operating role.
+- **Superseded provenance/verbatim source:** preserved in the private historical archive; **NEVER-NORMAL** as an active load route. `Checkpoint v1.1.1.md` governs the consolidated functions.
+- **Superseded end-session source:** preserved in the private historical archive, not an active load route. `Checkpoint v1.1.1.md` governs the consolidated functions.
 - **ATTAS story canon:** Repository has `CoSyn-18-core-trinity/tier 3/attas/attas-canon-v1.1.2.md`. The previously locally ratified v1.1.3 was **not found** in the observed GitHub tree. For ATTAS canon work, resolve the appropriate controlling source using explicit user/project authority; do not silently treat v1.1.2 as the ratified v1.1.3 successor or fail an unrelated bind.
 - **New/changed and unindexed files:** Discover candidate names from the smallest relevant folder; read only candidate source headers/content required to determine authority and task applicability. A new file is not automatically current governance and does not invalidate unrelated routes.
 - **Other WBG General, WBG Personal, Tier 2, and Tier 3 sources:** Many are present, including legacy/current-looking version pairs with unresolved authority. Do not promote by filename alone. For a task requiring one, perform narrow source-level resolution; unresolved candidates do not block unrelated work.
