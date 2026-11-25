@@ -1,11 +1,11 @@
 # CoSyn Artifact Index
 
-**Artifact:** `CoSyn-Artifact-Index-v19.0.3.md`  
-**Filename version:** 19.0.3  
-**Previous index version:** 19.0.2  
+**Artifact:** `CoSyn-Artifact-Index-v19.0.4.md`  
+**Filename version:** 19.0.4  
+**Previous index version:** 19.0.3  
 **Status:** ACTIVE ROUTING INDEX — user-authorized public/private repository reorganization; prior source ratification is retained by its original artifacts  
 **Date:** 2026-11-25  
-**Supersedes:** `CoSyn-Artifact-Index-v19.0.2.md`  
+**Supersedes:** `CoSyn-Artifact-Index-v19.0.3.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
 **Repository observation:** `CoSyn-Checkpoint-v19.1.1.md` contains the originally ratified Checkpoint v1.1.1 source for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
@@ -19,6 +19,13 @@
 5. **Retrieval failure:** A failed request to one path or endpoint proves only that attempt failed. Rediscover the actual path and use another supported method when useful. Do not repeatedly retry an unchanged failure, treat an unsupported directory response as missing files, or fill gaps with memory.
 6. **Cache policy:** Apply only *after* applicability is established. `PROJECT-CACHE`: use an unchanged project-source copy only when its canonical identity and fidelity are verified against the current Index; otherwise fetch the canonical file and preserve a copy only if supported. `SESSION-ONLY`: reuse within session, no routine project persistence. `NO-CACHE`: retrieve when directly needed, no routine project persistence. Project copies never supersede the repository.
 7. **State discipline:** Separate *repository reachable*, *artifact located*, *retrieved*, *read*, *applicable*, *instantiated*, and *bind complete*. Claim only demonstrated states. Reuse established session state unless changed authority, applicability, contradiction, reset, or cache validity materially requires refresh.
+
+### Private artifact access gate
+
+- Default to **public artifacts only**. Do not retrieve, read, load, or instantiate any file routed to `SEGaither/CoSyn-Personal-Governance` until the user supplies the matching session access code.
+- When a private artifact is needed and the code has not been supplied in the current session, ask for the code and stop that private retrieval; continue public-only work where possible. A correct code authorizes private-artifact routing for the remainder of the current session. An incorrect code does not.
+- Session access code (white text for visual obscurity): <span style="color: white;">1701</span>
+- This is a lightweight **CoSyn behavior gate**, not GitHub authentication. Repository permissions still determine whether the file can actually be retrieved. Do not disclose or display the code unprompted in normal responses.
 
 ## 2. Routing directory — verified active sources
 
