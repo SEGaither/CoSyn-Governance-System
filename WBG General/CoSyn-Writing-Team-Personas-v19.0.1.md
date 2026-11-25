@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Writing-Team-Personas-v19.0.1.md | Filename version: 19.0.1 | Original file: Writing-Team-Personas-v2.4.1-ratified.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:writing-team-personas:2.4.1
 artifact_title: Writing Team Personas
@@ -13,6 +12,7 @@ supersedes: cgs-v17.0.0-wbg-general-writing-team-personas-v2.4.0.md
 ratification_authority: Explicit user instruction on 2026-09-18
 internet_dependency: required when remote professional-reference retrieval is needed
 ---
+<!-- CoSyn repository file: CoSyn-Writing-Team-Personas-v19.0.1.md | Filename version: 19.0.1 | Original file: Writing-Team-Personas-v2.4.1-ratified.md | Original source status and version preserved -->
 
 # Writing Team Personas
 
