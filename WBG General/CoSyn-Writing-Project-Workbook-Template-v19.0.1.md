@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Writing-Project-Workbook-Template-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-project-workbook-template-v1.0.1.md | Source status and version preserved -->
 ---
 artifact_id: urn:cosyn:wbg:writing-project-workbook-template:1.0.1
 artifact_title: WBG Writing Project Workbook Template
@@ -9,6 +8,7 @@ artifact_type: Template
 status: PROPOSED / READY FOR USER REVIEW
 internet_dependency: required for remote professional-reference retrieval
 ---
+<!-- CoSyn repository file: CoSyn-Writing-Project-Workbook-Template-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-project-workbook-template-v1.0.1.md | Source status and version preserved -->
 
 # WBG Writing Project Workbook Template
 
