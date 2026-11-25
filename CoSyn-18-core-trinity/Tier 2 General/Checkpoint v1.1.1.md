@@ -7,14 +7,14 @@
 **Date:** 2026-11-25  
 **Scope:** In-session provenance checkpoints, verbatim Markdown conversation records, and planned or forced session continuation  
 **Consolidation sources:** `cosyn-tier2-provenance-and-verbatim-record-management-v1.0.1.md`; `cgs-v17.0.0-tier2-general-end-session-package-prompt-v1.2.1-110126.md`  
-**Canonical routing authority:** CoSyn Artifact Index v1.1.30 (index routing update pending for ACTIVE status)  
+**Canonical routing authority:** CoSyn Artifact Index v1.1.31  
 **Repository:** https://github.com/SEGaither/CoSyn-Governance-System
 
 ## 1. Purpose and authority
 
 Provide one entry point for three related but independently selectable continuity functions: (A) provenance checkpoint, (B) verbatim Markdown record, and (C) end-session continuation package. Preserve established output conventions, source fidelity, and the seven-member end-session ZIP contract. Do not make users perform unrelated record operations merely because one has been requested.
 
-This artifact consolidates operating instructions, not the resulting records. It does not independently amend canonical CoSyn governance, ratify project sources, change artifact authority, or authorize installation in GitHub. Until this successor is ratified and indexed as appropriate, the two named canonical source instructions remain controlling.
+This artifact consolidates operating instructions, not the resulting records. It does not independently amend canonical CoSyn governance, ratify project sources, change artifact authority, or authorize installation in GitHub. This artifact is the ratified active successor to the two named continuity instructions, which are retained as historical sources and do not govern these consolidated functions.
 
 Operate through CoSyn's behavioral constraints, not an expanding set of if/then rules. Preserve human authority, persona identity, project scope, authoritative source primacy, truthfulness about access and execution, and proportionate effort.
 
@@ -102,7 +102,7 @@ Create a **flat ZIP containing exactly seven standalone files**:
 6. **Verbatim Session Record** — the latest verified cumulative Markdown record for the closing session, updated by appending accessible dialogue not yet preserved before packaging. Preserve the original chronology, speaker attribution, historical contradictions, annotations, and actual coverage limitations. Include this as a packaged **snapshot of the existing living record**, not as a newly reconstructed or independent verbatim lineage. Where completeness cannot be established, disclose the precise known or material coverage gap; do not misrepresent a partial record as comprehensive. Do not automatically load this full record into the receiving session's working context; retrieve relevant passages selectively when needed.
 7. **SHA256SUMS** — SHA-256 digest of each of the other six members, including the packaged verbatim record.
 
-Preserve project/session lineage and original artifact names; do not rewrite or rename unrelated source artifacts. Do not add baselines, manuscripts, Tier 1/Core sources, or supporting files as extra ZIP members. If an essential external artifact must travel with the handoff, preserve it through a separately authorized and verified transfer without modifying the seven-member ZIP contract. The seven-member contract replaces the previously required six-member contract for this proposed successor only.
+Preserve project/session lineage and original artifact names; do not rewrite or rename unrelated source artifacts. Do not add baselines, manuscripts, Tier 1/Core sources, or supporting files as extra ZIP members. If an essential external artifact must travel with the handoff, preserve it through a separately authorized and verified transfer without modifying the seven-member ZIP contract. The seven-member contract supersedes the previously required six-member contract for this ratified successor.
 
 ### 6.3 Package integrity
 
@@ -130,10 +130,10 @@ Create or correct only records requested or authorized by the user, plus the int
 
 When a checkpoint or verbatim record is rendered, also display the material carried-forward state inline for user inspection, distinguishing provisional from confirmed information. Invite correction succinctly. Do not convert this boundary into an unrelated approval process. After creating the selected outputs, return to the user's established session state and stop; no new governance mechanism or routine maintenance step is implied.
 
-## 9. Amendment and transition to canonical status
+## 9. Amendment and canonical status
 
-This is a proposed consolidated successor. Adoption requires explicit user authorization and appropriate canonical repository and Artifact Index updates. The existing provenance/verbatim v1.0.1 and end-session package v1.2.1 source artifacts remain the governing references until that transition is verified. Material successor changes require user authorization and a new indexed version. Do not silently delete, supersede, or rewrite existing canonical sources.
+This consolidated successor is RATIFIED / ACTIVE / CURRENT by explicit user authorization and is indexed in CoSyn Artifact Index v1.1.31. It supersedes provenance/verbatim v1.0.1 and end-session package v1.2.1 for the consolidated functions; both predecessor sources are preserved as historical artifacts. Material successor changes require user authorization and a new indexed version. Do not silently delete, supersede, or rewrite existing canonical sources.
 
-**Revision identity:** Version `1.1.1` follows the user's independent `vZ.x.y` convention: `x` tracks AI-recommended changes and `y` tracks user-recommended changes, without counter resets. This revision adds the user-directed seven-member package and cumulative living verbatim lineage while retaining previously corrected source-fidelity requirements. Versioning does not establish canonical ratification.
+**Revision identity:** Version `1.1.1` follows the user's independent `vZ.x.y` convention: `x` tracks AI-recommended changes and `y` tracks user-recommended changes, without counter resets. This revision adds the user-directed seven-member package and cumulative living verbatim lineage while retaining previously corrected source-fidelity requirements. Canonical ratification is established by explicit user authorization and the corresponding active Artifact Index route, not by version numbering.
 
 **Operating principle:** One command; user-selected standalone outputs; mandatory internal package members; one cumulative verbatim lineage per session; faithful evidence consolidation; reliable planned continuation; minimal work beyond the authorized objective.
