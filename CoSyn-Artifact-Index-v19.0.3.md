@@ -1,11 +1,11 @@
 # CoSyn Artifact Index
 
-**Artifact:** `CoSyn-Artifact-Index-v19.0.2.md`  
-**Filename version:** 19.0.2  
-**Previous index version:** 19.0.1  
+**Artifact:** `CoSyn-Artifact-Index-v19.0.3.md`  
+**Filename version:** 19.0.3  
+**Previous index version:** 19.0.2  
 **Status:** ACTIVE ROUTING INDEX — user-authorized public/private repository reorganization; prior source ratification is retained by its original artifacts  
 **Date:** 2026-11-25  
-**Supersedes:** `CoSyn-Artifact-Index-v19.0.1.md`  
+**Supersedes:** `CoSyn-Artifact-Index-v19.0.2.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
 **Repository observation:** `CoSyn-Checkpoint-v19.1.1.md` contains the originally ratified Checkpoint v1.1.1 source for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
@@ -38,6 +38,7 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 | `Tier 2 General/CoSyn-Git-Repository-Change-Safety-Protocol-v19.0.1.md` | CONDITIONAL | SESSION-ONLY | Git inspection or mutation, commits, branches, history, reset/push | — |
 | `Tier 2 General/CoSyn-GPT-Compute-Conservation-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Execute an already approved/established plan in ChatGPT | — |
 | `Tier 2 General/CoSyn-PowerShell-Script-Writing-Instructions-v19.0.1.md` | CONDITIONAL | SESSION-ONLY | Writing executable PowerShell scripts for user | — |
+| `SEGaither/CoSyn-Personal-Governance:prompts/CoSyn-PowerShell-Script-Development-Prompt-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | User invokes the PowerShell Script Development Prompt or requests its guided script-development workflow | Tier 2 General PowerShell Script-Writing Instructions (applicable) |
 | `Tier 2 General/CoSyn-Lock-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | User invokes `Lock` | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Editing-Preferences-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Editing existing user artifacts with preservation/version instructions | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-User-Voice-and-Style-Reference-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Draft/revise writing in user's voice | — |
