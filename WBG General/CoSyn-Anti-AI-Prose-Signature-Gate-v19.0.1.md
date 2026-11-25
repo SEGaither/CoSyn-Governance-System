@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Anti-AI-Prose-Signature-Gate-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-anti-ai-prose-signature-gate-v1.1.0-092126-ratified.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:wbg:anti-ai-prose-signature-gate:1.1.0
 artifact_title: WBG Anti-AI Prose Signature Gate
@@ -10,6 +9,7 @@ status: RATIFIED / ACTIVE / CURRENT
 supersedes: cgs-v18.0.1-wbg-general-writing-voice-style-and-naturalness-v1.0.1.md
 source_basis: User-provided Wikipedia AI Writing Reference captured 2026-09-21, selectively adapted for general prose use
 ---
+<!-- CoSyn repository file: CoSyn-Anti-AI-Prose-Signature-Gate-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-anti-ai-prose-signature-gate-v1.1.0-092126-ratified.md | Original source status and version preserved -->
 
 # WBG Anti-AI Prose Signature Gate — v1.1.0
 
