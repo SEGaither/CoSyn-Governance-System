@@ -49,7 +49,7 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Readme-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal package guidance/README | — |
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Validation-Report-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal validation evidence | — |
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Provenance-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal provenance/history/audit | — |
-| `CoSyn-18-core-trinity/tier 3/General WBG Project Templates/cgs-v18.0.1-wbg-general-writing-project-workbook-template-v1.0.1.md` | ON-REQUEST | SESSION-ONLY | Writing workbook template review/use; verify proposed status before treating as governing | — |
+| `WBG General/CoSyn-Writing-Project-Workbook-Template-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | Writing workbook template review/use; verify proposed status before treating as governing | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 3 Personal/ATTAS/CoSyn-ATTAS-Drill-Review-Profile-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Explicit ATTAS Drill; Bookfox overlay only if explicitly requested | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-TVA-Gmail-Retrieval-Prompt-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | User requests this TVA email consolidation workflow | — |
 
