@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-CCT-Prompt-Building-Directions-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-cct-prompt-building-directions-v1.2.0-082126.md | Original source status and version preserved -->
 # CCT Prompt Building Directions
 
-**Artifact:** `cct-prompt-building-directions-v1.2.0-082126.md`
+**Artifact:** `CoSyn-CCT-Prompt-Building-Directions-v19.0.1.md`
+**Original source artifact:** `cct-prompt-building-directions-v1.2.0-082126.md`  
 **Version:** 1.2.0
 **Tier:** Tier 2 — User-specific operational prompt-development control
 **Status:** RATIFIED / ACTIVE
