@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-Provenance-Workflow-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-provenance-workflow-v1.1.0-082126.md | Original source status and version preserved -->
 # Provenance Workflow
 
-**Artifact:** `provenance-workflow-v1.1.0-082126.md`  
+**Artifact:** `CoSyn-Provenance-Workflow-v19.0.1.md`  
+**Original source artifact:** `provenance-workflow-v1.1.0-082126.md`  
 **Version:** 1.1.0  
 **Status:** RATIFIED / ACTIVE  
 **Tier:** Tier 2 — User-specific provenance workflow control  
