@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Anti-Plagiarism-Check-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-anti-plagiarism-check-v1.0.4.md | Original source status and version preserved -->
 ---
 wbg_artifact:
   schema_version: "1.0.1"
@@ -29,6 +28,7 @@ wbg_artifact:
   integrity:
     method: "external_registry_sha256"
 ---
+<!-- CoSyn repository file: CoSyn-Anti-Plagiarism-Check-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-anti-plagiarism-check-v1.0.4.md | Original source status and version preserved -->
 
 
 # WBG Anti-Plagiarism Check — v1.0.4
