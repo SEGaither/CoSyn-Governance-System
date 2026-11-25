@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Fiction-Drill-Review-Profile-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-fiction-drill-review-profile-v1.3.0-092526-ratified.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:general-fiction-drill-review-profile:1.3.0
 artifact_title: WBG General Fiction Drill Review Profile
@@ -13,6 +12,7 @@ repository_installation: NOT PERFORMED
 artifact_index_registration: NOT PERFORMED
 modification_authority: NONE by default
 ---
+<!-- CoSyn repository file: CoSyn-Fiction-Drill-Review-Profile-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-fiction-drill-review-profile-v1.3.0-092526-ratified.md | Original source status and version preserved -->
 
 # WBG General Fiction Drill Review Profile — v1.3.0
 
