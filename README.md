@@ -1,5 +1,5 @@
 
-# CoSyn v18
+# CoSyn Governance — v19 Repository Organization
 
 CoSyn is a practical governance system for making AI easier and more dependable to work with.
 
@@ -38,14 +38,14 @@ To start:
 3. Let the AI establish the current CoSyn baseline from the canonical repository.
 4. Continue working normally.
 
-## CoSyn v18 Startup Prompt                                                                           **click the copy button here**
+## CoSyn Startup Prompt                                                                           **click the copy button here**
 
 ```text
-Use the following repository as the controlling CoSyn v18 authority for this project and session:
+Use the following repository as the current CoSyn governance entry point for this project and session:
 
 https://github.com/SEGaither/CoSyn-Governance-System
 
-Bind to the current canonical CoSyn v18 governance baseline and Artifact Index.
+Bind to the current canonical CoSyn governance files and Artifact Index. The current Artifact Index is `CoSyn-Artifact-Index-v19.0.1.md`. Follow its public and private repository routes when access permits.
 
 ## Repository Discovery and Binding
 
@@ -315,7 +315,7 @@ Tier 2 General contains reusable cross-project instructions and capabilities tha
 
 ### Tier 2 Personal
 
-Tier 2 Personal contains user-specific cross-project behavior, personas, preferences, and operating instructions.
+Tier 2 Personal files now live in the private `SEGaither/CoSyn-Personal-Governance` repository. These include user-specific cross-project behavior, personas, preferences, and operating instructions.
 
 ### WBG General
 
@@ -323,7 +323,7 @@ WBG General contains reusable writing-governance and writing-support capabilitie
 
 ### WBG Personal
 
-WBG Personal contains writing behavior and controls customized for a specific user.
+WBG Personal files now live in the private `SEGaither/CoSyn-Personal-Governance` repository and contain user-specific writing behavior and controls.
 
 ### Tier 3
 
@@ -482,7 +482,7 @@ They should not automatically become part of everyone else's workflow.
 
 ## Current Status
 
-The CoSyn v18 Core governance foundation and public startup path are established.
+The Core governance foundation and public startup path are established. The v19 repository filenames preserve the original ratified v18 Core text until separately revised.
 
 The repository supports a normal startup path built around:
 
