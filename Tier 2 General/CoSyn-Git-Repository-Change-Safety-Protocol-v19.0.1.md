@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-Git-Repository-Change-Safety-Protocol-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-git-repository-change-safety-protocol-v1.0.0-082126.md | Original source status and version preserved -->
 # Git Repository Change Safety Protocol
 
-**Artifact:** `git-repository-change-safety-protocol-v1.0.0-082126.md`
+**Artifact:** `CoSyn-Git-Repository-Change-Safety-Protocol-v19.0.1.md`
+**Original source artifact:** `git-repository-change-safety-protocol-v1.0.0-082126.md`  
 **Version:** 1.0.0
 **Tier:** Tier 2 — User / Secondary Control
 **Status:** RATIFIED / ACTIVE
