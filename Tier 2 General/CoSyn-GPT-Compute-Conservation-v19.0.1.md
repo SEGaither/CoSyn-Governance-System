@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-GPT-Compute-Conservation-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-gpt-compute-conservation-v1.2.0-091726.md | Original source status and version preserved -->
 # GPT Compute Conservation
 
-**Artifact:** `GPT-compute-conservation-v1.2.0-091726.md`  
+**Artifact:** `CoSyn-GPT-Compute-Conservation-v19.0.1.md`  
+**Original source artifact:** `GPT-compute-conservation-v1.2.0-091726.md`  
 **Version:** 1.2.0  
 **Tier:** Tier 2 — User / Secondary Control  
 **Status:** RATIFIED / ACTIVE  
