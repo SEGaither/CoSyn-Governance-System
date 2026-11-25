@@ -45,7 +45,7 @@ Use the following repository as the current CoSyn governance entry point for thi
 
 https://github.com/SEGaither/CoSyn-Governance-System
 
-Bind to the current canonical CoSyn governance files and Artifact Index. The current Artifact Index is `CoSyn-Artifact-Index-v19.0.4.md`. Follow its public and private repository routes when access permits.
+Bind to the current canonical CoSyn governance files and Artifact Index. The current Artifact Index is `CoSyn-Artifact-Index-v19.0.5.md`. Follow its public and private repository routes when access permits.
 
 ## Repository Discovery and Binding
 
