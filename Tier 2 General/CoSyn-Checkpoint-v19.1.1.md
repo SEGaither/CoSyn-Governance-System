@@ -1,14 +1,15 @@
-<!-- CoSyn repository file: CoSyn-Checkpoint-v19.0.1.md | Filename version: 19.0.1 | Original file: Checkpoint v1.1.1.md | Original source status and version preserved -->
+<!-- CoSyn repository file: CoSyn-Checkpoint-v19.1.1.md | Filename version: 19.1.1 | Original file: Checkpoint v1.1.1.md | Original source status and version preserved -->
 # Checkpoint — Project Session Continuity
 
-**Artifact:** `CoSyn-Checkpoint-v19.0.1.md`  
-**Version:** 1.1.1  
+**Artifact:** `CoSyn-Checkpoint-v19.1.1.md`  
+**Filename version:** 19.1.1  
+**Original ratified workflow revision:** 1.1.1  
 **Tier:** 2 — Cross-project operational workflow instructions  
 **Status:** RATIFIED / ACTIVE / CURRENT — user-authorized 2026-11-25; installed in canonical GitHub repository  
 **Date:** 2026-11-25  
 **Scope:** In-session provenance checkpoints, verbatim Markdown conversation records, and planned or forced session continuation  
 **Consolidation sources:** `cosyn-tier2-provenance-and-verbatim-record-management-v1.0.1.md`; `cgs-v17.0.0-tier2-general-end-session-package-prompt-v1.2.1-110126.md`  
-**Canonical routing authority:** CoSyn Artifact Index v1.1.31  
+**Canonical routing authority:** `CoSyn-Artifact-Index-v19.0.2.md`  
 **Repository:** https://github.com/SEGaither/CoSyn-Governance-System
 
 ## 1. Purpose and authority
@@ -21,13 +22,15 @@ Operate through CoSyn's behavioral constraints, not an expanding set of if/then 
 
 ## 2. Invocation and selection
 
-When the user invokes **`checkpoint`** as a command, do not generate a record immediately. On the next assistant turn, ask which of the three outputs the user wants:
+When the user invokes **`checkpoint`** as a command without already specifying the desired outputs, present an interactive selection interface **on the next assistant turn**, before creating any files or asking unrelated questions. Use supported interactive controls when available:
 
-- **Provenance checkpoint** — a versioned Markdown record of the current operating state.
-- **Verbatim record** — a versioned Markdown record of actually accessible conversation dialogue.
-- **End-session package** — the seven-file ZIP continuation package, including a snapshot of the living verbatim record.
+- **Provenance Checkpoint** — a selectable checkbox for a versioned Markdown record of the current operating state.
+- **Verbatim Record** — a selectable checkbox for a versioned Markdown record of actually accessible conversation dialogue.
+- **End-Session Package** — a selectable checkbox for the seven-file ZIP continuation package, including a snapshot of the living verbatim record.
 
-Allow any one, any two, or all three selections in a single request. Accept the user's equivalent plain-language selection without requiring a precise label. If the user has already explicitly selected the desired output(s), execute the selection directly without an unnecessary extra question. Do not treat ordinary discussion mentioning “checkpoint” as an invocation.
+Show a **Create selected outputs** button. It must be disabled when no choices are selected and enabled when at least one is selected. Allow any one, any two, or all three checkboxes to be selected simultaneously. When the user activates the enabled button, create **only** the selected standalone outputs and their expressly required internal dependencies, following Sections 3–8. Do not perform any output generation, retrieve unnecessary source material, or ask questions unrelated to selection before the user submits a choice.
+
+If interactive selection controls are unavailable, present the same three options as a concise text selection and wait for the user's reply. If the user has already explicitly selected the desired output(s) in the invocation, execute those outputs directly without requiring another selection step. Accept equivalent plain-language selections without requiring exact labels. Do not treat ordinary discussion mentioning “checkpoint” as an invocation.
 
 Selection authorizes creation of only the selected standalone outputs and any internal members explicitly required by the selected operation. End-session packaging requires its project-provenance member and a snapshot of the session's living verbatim record; these are **internal package dependencies**, not authorization to render separate standalone outputs that the user did not select. A request for a checkpoint alone does **not** require a verbatim record. A verbatim request alone does **not** require a checkpoint. Selecting end-session packaging authorizes updating the existing living verbatim record as necessary to supply its mandatory package member; no parallel verbatim lineage is created. No operation automatically closes a conversation.
 
@@ -133,8 +136,10 @@ When a checkpoint or verbatim record is rendered, also display the material carr
 
 ## 9. Amendment and canonical status
 
-This consolidated successor is RATIFIED / ACTIVE / CURRENT by explicit user authorization and is indexed in CoSyn Artifact Index v1.1.31. It supersedes provenance/verbatim v1.0.1 and end-session package v1.2.1 for the consolidated functions; both predecessor sources are preserved as historical artifacts. Material successor changes require user authorization and a new indexed version. Do not silently delete, supersede, or rewrite existing canonical sources.
+This consolidated successor is RATIFIED / ACTIVE / CURRENT by explicit user authorization and is now routed by `CoSyn-Artifact-Index-v19.0.2.md`. It supersedes provenance/verbatim v1.0.1 and end-session package v1.2.1 for the consolidated functions; both predecessor sources are preserved as historical artifacts. Material successor changes require user authorization and a new indexed version. Do not silently delete, supersede, or rewrite existing canonical sources.
 
 **Revision identity:** Version `1.1.1` follows the user's independent `vZ.x.y` convention: `x` tracks AI-recommended changes and `y` tracks user-recommended changes, without counter resets. This revision adds the user-directed seven-member package and cumulative living verbatim lineage while retaining previously corrected source-fidelity requirements. Canonical ratification is established by explicit user authorization and the corresponding active Artifact Index route, not by version numbering.
+
+**Amendment (2026-11-25, user-approved):** Added the mandatory interactive three-choice checkpoint selection screen, enabled-only-after-selection action, and concise text fallback. The three existing output contracts, source-fidelity requirements, session naming rules, and seven-member ZIP specification are unchanged. The user-approved filename revision is `v19.1.1`; original source version `1.1.1` remains as provenance.
 
 **Operating principle:** One command; user-selected standalone outputs; mandatory internal package members; one cumulative verbatim lineage per session; faithful evidence consolidation; reliable planned continuation; minimal work beyond the authorized objective.

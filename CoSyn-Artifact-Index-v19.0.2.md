@@ -1,13 +1,13 @@
 # CoSyn Artifact Index
 
-**Artifact:** `CoSyn-Artifact-Index-v19.0.1.md`  
-**Filename version:** 19.0.1  
-**Previous index version:** 1.1.31  
+**Artifact:** `CoSyn-Artifact-Index-v19.0.2.md`  
+**Filename version:** 19.0.2  
+**Previous index version:** 19.0.1  
 **Status:** ACTIVE ROUTING INDEX — user-authorized public/private repository reorganization; prior source ratification is retained by its original artifacts  
 **Date:** 2026-11-25  
-**Supersedes:** `artifact-index-v1.1.31.md`  
+**Supersedes:** `CoSyn-Artifact-Index-v19.0.1.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
-**Repository observation:** `CoSyn-Checkpoint-v19.0.1.md` contains the originally ratified Checkpoint v1.1.1 source for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
+**Repository observation:** `CoSyn-Checkpoint-v19.1.1.md` contains the originally ratified Checkpoint v1.1.1 source for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
 
 ## 1. Binding and tolerant routing rules
@@ -33,7 +33,7 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Personal-Response-Instructions-v19.0.1.md` | BOUND-BASELINE | PROJECT-CACHE | Cross-project response rules | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Zero-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Zero requested; software, LLM/API/agents, code, debugging, repository engineering | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Ziggy-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Ziggy requested; reflective reasoning, personal judgment, continuity-aware self-improvement | — |
-| `Tier 2 General/CoSyn-Checkpoint-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | `checkpoint` invocation; provenance checkpoints, living verbatim session records, end-session continuation packages, and related continuity management | Constitution v18.0.1 |
+| `Tier 2 General/CoSyn-Checkpoint-v19.1.1.md` | CONDITIONAL | PROJECT-CACHE | `checkpoint` invocation; provenance checkpoints, living verbatim session records, end-session continuation packages, and related continuity management | Constitution v18.0.1 |
 | `Tier 2 General/CoSyn-Work-Session-Management-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Consequential stateful/multistep work, team routing or continuity handoff | Guppi v1.3.17; Git safety protocol (source-declared; resolve if relevant) |
 | `Tier 2 General/CoSyn-Git-Repository-Change-Safety-Protocol-v19.0.1.md` | CONDITIONAL | SESSION-ONLY | Git inspection or mutation, commits, branches, history, reset/push | — |
 | `Tier 2 General/CoSyn-GPT-Compute-Conservation-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Execute an already approved/established plan in ChatGPT | — |
@@ -55,8 +55,8 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 
 ## 3. Available but not automatically authoritative
 
-- **Superseded provenance/verbatim source:** preserved in the private historical archive; **NEVER-NORMAL** as an active load route. `CoSyn-Checkpoint-v19.0.1.md` governs the consolidated functions.
-- **Superseded end-session source:** preserved in the private historical archive, not an active load route. `CoSyn-Checkpoint-v19.0.1.md` governs the consolidated functions.
+- **Superseded provenance/verbatim source:** preserved in the private historical archive; **NEVER-NORMAL** as an active load route. `CoSyn-Checkpoint-v19.1.1.md` governs the consolidated functions.
+- **Superseded end-session source:** preserved in the private historical archive, not an active load route. `CoSyn-Checkpoint-v19.1.1.md` governs the consolidated functions.
 - **ATTAS story canon:** The private repository contains `Tier 3 Personal/ATTAS/CoSyn-ATTAS-Canon-v19.0.1.md`, carrying the original v1.1.2 source. The previously locally ratified v1.1.3 has not been established in the connected repositories. For ATTAS canon work, resolve the appropriate controlling source using explicit user/project authority; do not silently treat v1.1.2 as the ratified v1.1.3 successor or fail an unrelated bind.
 - **New/changed and unindexed files:** Discover candidate names from the smallest relevant folder; read only candidate source headers/content required to determine authority and task applicability. A new file is not automatically current governance and does not invalidate unrelated routes.
 - **Other WBG General, WBG Personal, Tier 2, and Tier 3 sources:** Many are present, including legacy/current-looking version pairs with unresolved authority. Do not promote by filename alone. For a task requiring one, perform narrow source-level resolution; unresolved candidates do not block unrelated work.
