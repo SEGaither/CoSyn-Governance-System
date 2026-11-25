@@ -41,9 +41,9 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 | `Tier 2 General/CoSyn-Lock-v19.0.1.md` | ON-REQUEST | SESSION-ONLY | User invokes `Lock` | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-Editing-Preferences-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Editing existing user artifacts with preservation/version instructions | — |
 | `SEGaither/CoSyn-Personal-Governance:Tier 2 Personal/CoSyn-User-Voice-and-Style-Reference-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Draft/revise writing in user's voice | — |
-| `CoSyn-18-core-trinity/WBG General/cgs-v18.0.1-wbg-general-anti-ai-prose-signature-gate-v1.1.0-092126-ratified.md` | CONDITIONAL | PROJECT-CACHE | Explicit synthetic-prose/Anti-AI audit or correction | — |
-| `CoSyn-18-core-trinity/WBG General/Writing-Team-Personas-v2.4.1-ratified.md` | CONDITIONAL | PROJECT-CACHE | Manuscript professional-team/persona and editing stages | — |
-| `CoSyn-18-core-trinity/WBG General/cgs-v18.0.1-wbg-general-fiction-drill-review-profile-v1.3.0-092526-ratified.md` | CONDITIONAL | PROJECT-CACHE | Explicit general-fiction Drill review | — |
+| `WBG General/CoSyn-Anti-AI-Prose-Signature-Gate-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Explicit synthetic-prose/Anti-AI audit or correction | — |
+| `WBG General/CoSyn-Writing-Team-Personas-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Manuscript professional-team/persona and editing stages | — |
+| `WBG General/CoSyn-Fiction-Drill-Review-Profile-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | Explicit general-fiction Drill review | — |
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Project-Package-Creation-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal project package | — |
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Root-Profile-v19.0.1.md` | CONDITIONAL | PROJECT-CACHE | WBG Personal writing workflow requiring root profile | — |
 | `SEGaither/CoSyn-Personal-Governance:WBG Personal/CoSyn-WBG-Personal-Readme-v19.0.1.md` | ON-REQUEST | NO-CACHE | WBG Personal package guidance/README | — |
