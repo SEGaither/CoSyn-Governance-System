@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Writing-User-Artistic-Authority-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-user-artistic-authority-v1.0.1.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:wbg:writing-user-artistic-authority:1.0.1
 artifact_title: WBG User Artistic Authority
@@ -10,6 +9,7 @@ status: CANDIDATE / READY FOR PACKAGE INTEGRATION
 supersedes: cgs-v17.0.0-wbg-general-writing-user-artistic-authority-v1.0.0.md
 internet_dependency: required for source-validation and remote professional-reference retrieval
 ---
+<!-- CoSyn repository file: CoSyn-Writing-User-Artistic-Authority-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-user-artistic-authority-v1.0.1.md | Original source status and version preserved -->
 
 # WBG User Artistic Authority — v1.0.1
 
