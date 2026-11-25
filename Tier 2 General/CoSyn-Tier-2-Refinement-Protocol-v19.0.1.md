@@ -1,7 +1,8 @@
 <!-- CoSyn repository file: CoSyn-Tier-2-Refinement-Protocol-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v17.0.0-tier2-general-tier2-refinement-protocol-v1.1.0-082126.md | Original source status and version preserved -->
 # Tier 2 Refinement Protocol
 
-**Artifact:** `tier2-refinement-protocol-v1.1.0-082126.md`  
+**Artifact:** `CoSyn-Tier-2-Refinement-Protocol-v19.0.1.md`  
+**Original source artifact:** `tier2-refinement-protocol-v1.1.0-082126.md`  
 **Version:** 1.1.0  
 **Tier:** Tier 2 — User-specific governance refinement workflow control  
 **Status:** RATIFIED / ACTIVE  
