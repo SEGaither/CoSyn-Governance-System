@@ -7,7 +7,7 @@
 **Date:** 2026-11-25  
 **Supersedes:** `artifact-index-v1.1.31.md`  
 **Canonical repository:** https://github.com/SEGaither/CoSyn-Governance-System  
-**Repository observation:** `CoSyn-Checkpoint-v19.0.1.md` is RATIFIED / ACTIVE / CURRENT for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
+**Repository observation:** `CoSyn-Checkpoint-v19.0.1.md` contains the originally ratified Checkpoint v1.1.1 source for consolidated continuity operations. Superseded sources, older indexes and historical copies are preserved in the private archive, not the public working tree.  
 **Purpose:** Identify the minimum applicable canonical source files for the current task. This is a routing directory, not a repository-maintenance ledger.
 
 ## 1. Binding and tolerant routing rules
@@ -57,12 +57,12 @@ Public paths are relative to `SEGaither/CoSyn-Governance-System`. A path prefixe
 
 - **Superseded provenance/verbatim source:** preserved in the private historical archive; **NEVER-NORMAL** as an active load route. `CoSyn-Checkpoint-v19.0.1.md` governs the consolidated functions.
 - **Superseded end-session source:** preserved in the private historical archive, not an active load route. `CoSyn-Checkpoint-v19.0.1.md` governs the consolidated functions.
-- **ATTAS story canon:** Repository has `CoSyn-18-core-trinity/tier 3/attas/attas-canon-v1.1.2.md`. The previously locally ratified v1.1.3 was **not found** in the observed GitHub tree. For ATTAS canon work, resolve the appropriate controlling source using explicit user/project authority; do not silently treat v1.1.2 as the ratified v1.1.3 successor or fail an unrelated bind.
+- **ATTAS story canon:** The private repository contains `Tier 3 Personal/ATTAS/CoSyn-ATTAS-Canon-v19.0.1.md`, carrying the original v1.1.2 source. The previously locally ratified v1.1.3 has not been established in the connected repositories. For ATTAS canon work, resolve the appropriate controlling source using explicit user/project authority; do not silently treat v1.1.2 as the ratified v1.1.3 successor or fail an unrelated bind.
 - **New/changed and unindexed files:** Discover candidate names from the smallest relevant folder; read only candidate source headers/content required to determine authority and task applicability. A new file is not automatically current governance and does not invalidate unrelated routes.
 - **Other WBG General, WBG Personal, Tier 2, and Tier 3 sources:** Many are present, including legacy/current-looking version pairs with unresolved authority. Do not promote by filename alone. For a task requiring one, perform narrow source-level resolution; unresolved candidates do not block unrelated work.
 - **Knowledge base:** `CoSyn-18-core-trinity/knowledge-base/` contains `Guppi-CoSyn-Intro-v1.1.0.md`, `LLM-manual-v2.2.4.docx`, and `place-holder`. These are reference materials, **not baseline governance**. Retrieve on explicit reference/research need; no routine preload. The `.docx` was identified by the repository tree, not semantically inspected.
 - **Writing reference corpus:** `CoSyn-18-core-trinity/WBG General/Writing-Team-Professional-Reference-Corpus-Index-v1.1.0.md` and several large transcript/corpus files exist. Retrieve selectively only for applicable professional-reference tasks; no routine preload and no source-status inference from mere presence.
-- **Historical, packages, duplicate files, and 0-byte placeholder:** `NEVER-NORMAL`. Source existence alone does not establish operating authority. The empty `Tier 2 General/suspect-output-prompt v1.0.0.md` has no readable instructions.
+- **Historical, packages, duplicate files, and 0-byte placeholder:** `NEVER-NORMAL`. Source existence alone does not establish operating authority. The earlier empty suspect-output placeholder is retained only in the private archive and has no readable instructions.
 
 ## 4. Minimal exception and maintenance policy
 
