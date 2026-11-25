@@ -1,4 +1,3 @@
-<!-- CoSyn repository file: CoSyn-Writing-Operation-State-and-Revision-Control-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-operation-state-and-revision-control-v1.0.3.md | Original source status and version preserved -->
 ---
 artifact_id: urn:cosyn:wbg:writing-operation-state-and-revision-control:1.0.3
 artifact_title: WBG Writing Operation State and Revision Control
@@ -10,6 +9,7 @@ status: CANDIDATE / READY FOR PACKAGE INTEGRATION
 internet_dependency: required for remote professional-reference retrieval
 supersedes: cgs-v17.0.0-wbg-general-writing-operation-state-and-revision-control-v1.0.2.md
 ---
+<!-- CoSyn repository file: CoSyn-Writing-Operation-State-and-Revision-Control-v19.0.1.md | Filename version: 19.0.1 | Original file: cgs-v18.0.1-wbg-general-writing-operation-state-and-revision-control-v1.0.3.md | Original source status and version preserved -->
 
 # WBG Writing Operation State and Revision Control — v1.0.3
 
